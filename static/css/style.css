@@ -1,0 +1,72 @@
+/* Customize the navigation menu */
+.navbar-brand {
+  font-size: 21.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+/* Customize the main content area */
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Customize the footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+/* Customize the home page */
+.home-header {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('https://www.example.com/home-bg.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.home-header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.home-header p {
+  font-size: 1.5rem;
+}
+
+.home-services {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home-services h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.home-service {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.home-service h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.home-service p {
+  font-size: 1.2rem;
+  color: gray;
+}

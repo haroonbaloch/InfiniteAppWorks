@@ -1,0 +1,160 @@
+{% extends 'home/base.html' %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Welcome to InfiniteAppWorks</h1>
+        <p>We are a leading mobile app and web development company specializing in Android and iOS app development, game development, website development, deployment, and data analysis.</p>
+        <a href="{% url 'services' %}" class="btn btn-primary">Our Services</a>
+      </div>
+      <div class="col-md-6">
+{#        <img src="{% static 'img/app-development.png' %}" class="img-fluid" alt="App Development">#}
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2>Featured Projects</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+{#          <img src="{% static 'img/project-1.jpg' %}" class="card-img-top" alt="Project 1">#}
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+{#          <img src="{% static 'img/project-2.jpg' %}" class="card-img-top" alt="Project 2">#}
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+{#          <img src="{% static 'img/project-3.jpg' %}" class="card-img-top" alt="Project 3">#}
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2>What Our Clients Say</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <p class="card-text">"I had a great experience working with InfiniteAppWorks. They delivered my project on time and within budget, and the end result was even better than I had imagined. Highly recommended!"</p>
+            <p class="card-text"><small class="text-muted">- John Smith, CEO of XYZ Inc.</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <p class="card-text">"InfiniteAppWorks is a fantastic development partner. They are knowledgeable, responsive,
+        and easy to work with. I highly recommend them for any app or website development needs."</p>
+            <p class="card-text"><small class="text-muted">- Jane Doe, Marketing Manager at ABC Inc.</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <p class="card-text">"We worked with InfiniteAppWorks on a complex data analysis project, and they exceeded our expectations. Their team is highly skilled and dedicated, and they delivered exceptional results in a timely manner."</p>
+            <p class="card-text"><small class="text-muted">- Michael Johnson, Director of Analytics at DEF Inc.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2>Meet Our Team</h2>
+    <div class="row">
+      <div class="col-md-4">
+{#        <img src="{% static 'img/team-member-1.jpg' %}" class="img-fluid rounded-circle mb-3" alt="Team Member 1">#}
+        <h4>John Smith</h4>
+        <p class="text-muted">Android Developer</p>
+      </div>
+      <div class="col-md-4">
+{#        <img src="{% static 'img/team-member-2.jpg' %}" class="img-fluid rounded-circle mb-3" alt="Team Member 2">#}
+        <h4>Jane Doe</h4>
+        <p class="text-muted">iOS Developer</p>
+      </div>
+      <div class="col-md-4">
+{#        <img src="{% static 'img/team-member-3.jpg' %}" class="img-fluid rounded-circle mb-3" alt="Team Member 3">#}
+        <h4>Michael Johnson</h4>
+        <p class="text-muted">Data Analyst</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2>Latest News</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+{#          <img src="{% static 'img/news-1.jpg' %}" class="card-img-top" alt="News 1">#}
+          <div class="card-body">
+            <h5 class="card-title">The Importance of Mobile App Development for Businesses</h5>
+            <p class="card-text">Learn why businesses of all sizes should invest in mobile app development to stay competitive in today's market.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+{#          <img src="{% static 'img/news-2.jpg' %}" class="card-img-top" alt="News 2">#}
+          <div class="card-body">
+            <h5 class="card-title">How to Choose the Right Web Development Framework</h5>
+            <p class="card-text">With so many web development frameworks to choose from, it can be difficult to know which one is right for your project. Learn how to make an informed decision.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+              </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+{#          <img src="{% static 'img/news-3.jpg' %}" class="card-img-top" alt="News 3">#}
+          <div class="card-body">
+            <h5 class="card-title">Maximizing Your ROI with Data Analysis</h5>
+            <p class="card-text">Learn how our data analysis services can help you make better business decisions and increase your ROI.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2>Contact Us</h2>
+    <p>Ready to get started on your next project? Contact us today to schedule a consultation.</p>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+{% endblock %}
+

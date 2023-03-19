@@ -1,0 +1,38 @@
+{% extends 'home/base.html' %}
+
+{% block title %}Our Services{% endblock %}
+
+{% block content %}
+  <div class="container-fluid mt-5">
+    <h2 class="text-center mb-5">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card">
+{#          <img src="{% static 'img/mobile-app.jpg' %}" class="card-img-top" alt="Mobile App Development">#}
+          <div class="card-body">
+            <h5 class="card-title">Mobile App Development</h5>
+            <p class="card-text">We create native and hybrid mobile apps for both iOS and Android platforms that deliver a seamless user experience and drive results for your business.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card">
+{#          <img src="{% static 'img/web-development.jpg' %}" class="card-img-top" alt="Web Development">#}
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">We build custom websites and web applications that are fast, secure, and scalable, using the latest technologies and best practices.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card">
+{#          <img src="{% static 'img/data-analysis.jpg' %}" class="card-img-top" alt="Data Analysis">#}
+          <div class="card-body">
+            <h5 class="card-title">Data Analysis</h5>
+            <p class="card-text">We help you make sense of your data by providing advanced analytics, visualization, and reporting solutions that drive business insights and improve decision-making.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
