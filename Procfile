@@ -1,1 +1,1 @@
-web: gunicorn home.wsgi --log-file -
+web: gunicorn InfiniteAppWorks.wsgi --log-file -
